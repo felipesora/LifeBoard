@@ -143,7 +143,7 @@ O backend do LifeBoard foi desenvolvido com foco em confiabilidade, padronizaç�
 - **Lombok** para redução de código boilerplate
 - **Spring DevTools** para agilizar o desenvolvimento
 
-[🔗 GitHub – LifeBoard Backend](https://github.com/felipesora/lifeboard-backend-java)
+[🔗 GitHub – LifeBoard Backend](https://github.com/felipesora/lifeboard-backend)
 
 ### ⚛️ Frontend (React.js)
 
@@ -347,7 +347,7 @@ O **LifeBoard está dividido em dois repositórios principais** — um para o ba
 
 - **Backend (Java 21 + Spring Boot):**
 
-    [🔗 GitHub – LifeBoard Backend](https://github.com/felipesora/lifeboard-backend-java)
+    [🔗 GitHub – LifeBoard Backend](https://github.com/felipesora/lifeboard-backend)
 
 ### 🚀 Deploys
 
