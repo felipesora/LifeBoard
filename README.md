@@ -1,6 +1,8 @@
-<h1 style="display: flex; flex-direction: row; align-items: center; gap: 10px;">
-  <img src="logo-lifeboard-branca.png" alt="LifeBoard Logo" width="60" />
-  LifeBoard
+<h1>
+  <span>
+    <img src="logo-lifeboard-branca.png" alt="LifeBoard Logo" width="60" style="vertical-align: middle;" />
+  </span>
+  <span style="vertical-align: middle;">LifeBoard</span>
 </h1>
 
 ![Java](https://img.shields.io/badge/Java-F89820?style=flat&logo=openjdk&logoColor=white)
