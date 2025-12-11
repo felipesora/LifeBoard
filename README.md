@@ -5,14 +5,6 @@
   <span style="vertical-align: middle;">LifeBoard</span>
 </h1>
 
-![Java](https://img.shields.io/badge/Java-F89820?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-
 O **LifeBoard** é uma plataforma integrada de **gestão financeira** e **produtividade pessoal**, desenvolvida para ajudar usuários a organizarem suas finanças e tarefas em um ambiente único, moderno e intuitivo. A solução combina recursos de controle financeiro, acompanhamento de metas e gerenciamento de tarefas, oferecendo uma visão completa do dia a dia para facilitar decisões e melhorar a organização pessoal.
 
 ---
