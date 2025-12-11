@@ -266,7 +266,11 @@ api.security.token.secret=${JWT_SECRET}
 
 #### 1.3. Rodando o Backend
 
-No diretório raiz do backend, execute:
+Abra o projeto na sua IDE (IntelliJ, Eclipse ou VS Code) e localize a classe principal: `src/main/java/com/lifeboard/LifeboardBackendJavaApplication.java`
+
+Basta **clicar em “Run”** na classe `LifeboardBackendJavaApplication` para iniciar a aplicação.
+
+Ou no diretório raiz do backend, execute:
 
 ```
 mvn spring-boot:run
@@ -286,7 +290,7 @@ Após iniciar:
 
 #### 2.2. Configuração do Frontend
 
-Crie um arquivo `.env` na raiz do frontend, se necessário:
+No arquivo `.env` localizado na raiz do frontend, ajuste a URL da API para apontar para o backend Java:
 
 ```bash
 VITE_API_URL=http://localhost:8080/api
