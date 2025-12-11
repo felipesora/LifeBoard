@@ -1,6 +1,6 @@
 <h1>
   <span>
-    <img src="logo-lifeboard-branca.png" alt="LifeBoard Logo" width="60" style="vertical-align: middle;" />
+    <img src="docs/imagens/logo-lifeboard-branca.png" alt="LifeBoard Logo" width="60" style="vertical-align: middle;" />
   </span>
   <span style="vertical-align: middle;">LifeBoard</span>
 </h1>
@@ -31,7 +31,7 @@ Na Home, é possível encontrar:
     - **Página de Cadastro**
 - Layout responsivo e intuitivo, permitindo que o usuário compreenda rapidamente como navegar pelo sistema.
 
-![Controle Financeiro]()
+![Página inicial](docs/imagens/pagina-inicial.png)
 
 ---
 
@@ -44,7 +44,7 @@ A **área financeira do LifeBoard** oferece uma visão clara e atualizada da sa�
 - Listagem das últimas transações para acompanhamento rápido.
 - Exibição de metas financeiras diretamente no painel.
 
-![Controle Financeiro]()
+![Controle Financeiro](docs/imagens/controle-financeiro.png)
 
 ---
 
@@ -59,7 +59,7 @@ A página de **Transações** oferece uma visão completa e organizada de todos 
 - Tipo da transação (entrada, saída, aplicação em meta ou resgate)
 - Valor
 
-![Transações]()
+![Transações](docs/imagens/transacoes.png)
 
 Além disso, é possível **exportar todas as transações para um arquivo XLSX**, permitindo análise externa, backup ou integração com outras ferramentas.
 
@@ -74,7 +74,7 @@ O **módulo de metas** auxilia o usuário a planejar e acompanhar objetivos fina
 - Valor total
 - Progresso exibido por uma **barra de acompanhamento**
 
-![Metas Financeiras]()
+![Metas Financeiras](docs/imagens/metas.png)
 
 É possível **adicionar ou retirar valores das metas**, sempre respeitando o saldo disponível no controle financeiro.
 
@@ -97,7 +97,7 @@ Cada tarefa apresenta:
 - Descrição
 - Data limite
 
-![Kanban]()
+![Kanban](docs/imagens/kanban.png)
 
 Esse formato amplia a clareza visual e facilita o fluxo de trabalho.
 
@@ -105,7 +105,7 @@ Esse formato amplia a clareza visual e facilita o fluxo de trabalho.
 
 Modo de visualização alternativo em formato de tabela, ideal para pesquisas e análises rápidas.
 
-![Minhas tarefas]()
+![Minhas tarefas](docs/imagens/tarefas.png)
 
 As tarefas também podem ser **exportadas para XLSX**, garantindo flexibilidade e integração com outras ferramentas.
 
@@ -119,7 +119,7 @@ Para apoiar foco e produtividade, o LifeBoard inclui um **temporizador Pomodoro*
 - 15 minutos
 - 20 minutos
 
-![Pomodoro]()
+![Pomodoro](docs/imagens/pomodoro.png)
 
 A página contém uma explicação sobre o método, ajudando o usuário a aplicar a técnica corretamente no dia a dia.
 
@@ -168,7 +168,7 @@ Principais tecnologias e ferramentas:
 
 Abaixo está a modelagem utilizada no projeto:
 
-![Modelagem Banco]()
+![Modelagem Banco](docs/imagens/modelagem.png)
 
 ### 🔗 Integração e Comunicação
 
