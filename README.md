@@ -353,6 +353,28 @@ O **LifeBoard está dividido em dois repositórios principais** — um para o ba
 
     [🔗 Documentação Web – Swagger / OpenAPI]()
 
+
+> ⚠️ **Observação Importante**
+>
+> O backend do LifeBoard está hospedado no plano gratuito do **Render**, o que significa que o servidor entra em modo “sleep” após um período sem uso.  
+> Por isso, ao acessar a aplicação, recomenda-se:
+>
+> 1️⃣ Acessar primeiro o **deploy do backend**  
+> 2️⃣ Aguardar alguns segundos até que o serviço seja reativado  
+> 3️⃣ Após o backend estar ativo, utilizar normalmente o **frontend**
+>
+> Isso garante que todas as funcionalidades sejam carregadas corretamente.
+
+---
+
+## 🎥 Demonstração do LifeBoard
+
+Confira um vídeo apresentando o LifeBoard em funcionamento, mostrando as principais funcionalidades da plataforma, incluindo controle financeiro, metas, tarefas e pomodoro:
+
+👉 **Assista ao vídeo demonstrativo:**
+
+[🔗 Vídeo Demontrativo da Solução]()
+
 ---
 
 ## 👨‍💻 Autor
