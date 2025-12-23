@@ -351,7 +351,9 @@ O **LifeBoard está dividido em dois repositórios principais** — um para o ba
 
 - **API REST (Backend):**
 
-    [🔗 Documentação Web – Swagger / OpenAPI]()
+    [🔗 API LifeBoard](https://lifeboard-backend-cv3r.onrender.com)
+
+    [🔗 Documentação Web – Swagger / OpenAPI](https://lifeboard-backend-cv3r.onrender.com/swagger-ui/index.html)
 
 
 > ⚠️ **Observação Importante**
