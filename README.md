@@ -142,6 +142,8 @@ O backend do LifeBoard foi desenvolvido com foco em confiabilidade, padronizaç�
 - **Spring Doc / OpenAPI** para documentação dos endpoints
 - **Lombok** para redução de código boilerplate
 - **Spring DevTools** para agilizar o desenvolvimento
+- **JUnit 5 + Spring Boot Test** para testes automatizados (unitários e integrados)
+- **Mockito** para simulação de dependências e cenários de negócio
 
 [🔗 GitHub – LifeBoard Backend](https://github.com/felipesora/lifeboard-backend-java)
 
