@@ -354,3 +354,10 @@ O **LifeBoard está dividido em dois repositórios principais** — um para o ba
     [🔗 Documentação Web – Swagger / OpenAPI]()
 
 ---
+
+## 👨‍💻 Autor
+Desenvolvido por **Felipe Sora**
+
+🔗 GitHub: https://github.com/felipesora
+
+🔗 LinkedIn: https://www.linkedin.com/in/felipesora/
