@@ -1,17 +1,9 @@
 <h1>
   <span>
-    <img src="logo-lifeboard-branca.png" alt="LifeBoard Logo" width="60" style="vertical-align: middle;" />
+    <img src="docs/imagens/logo-lifeboard-branca.png" alt="LifeBoard Logo" width="60" style="vertical-align: middle;" />
   </span>
   <span style="vertical-align: middle;">LifeBoard</span>
 </h1>
-
-![Java](https://img.shields.io/badge/Java-F89820?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
 O **LifeBoard** é uma plataforma integrada de **gestão financeira** e **produtividade pessoal**, desenvolvida para ajudar usuários a organizarem suas finanças e tarefas em um ambiente único, moderno e intuitivo. A solução combina recursos de controle financeiro, acompanhamento de metas e gerenciamento de tarefas, oferecendo uma visão completa do dia a dia para facilitar decisões e melhorar a organização pessoal.
 
@@ -31,7 +23,7 @@ Na Home, é possível encontrar:
     - **Página de Cadastro**
 - Layout responsivo e intuitivo, permitindo que o usuário compreenda rapidamente como navegar pelo sistema.
 
-![Controle Financeiro]()
+![Página inicial](docs/imagens/pagina-inicial.png)
 
 ---
 
@@ -44,7 +36,7 @@ A **área financeira do LifeBoard** oferece uma visão clara e atualizada da sa�
 - Listagem das últimas transações para acompanhamento rápido.
 - Exibição de metas financeiras diretamente no painel.
 
-![Controle Financeiro]()
+![Controle Financeiro](docs/imagens/controle-financeiro.png)
 
 ---
 
@@ -59,7 +51,7 @@ A página de **Transações** oferece uma visão completa e organizada de todos 
 - Tipo da transação (entrada, saída, aplicação em meta ou resgate)
 - Valor
 
-![Transações]()
+![Transações](docs/imagens/transacoes.png)
 
 Além disso, é possível **exportar todas as transações para um arquivo XLSX**, permitindo análise externa, backup ou integração com outras ferramentas.
 
@@ -74,7 +66,7 @@ O **módulo de metas** auxilia o usuário a planejar e acompanhar objetivos fina
 - Valor total
 - Progresso exibido por uma **barra de acompanhamento**
 
-![Metas Financeiras]()
+![Metas Financeiras](docs/imagens/metas.png)
 
 É possível **adicionar ou retirar valores das metas**, sempre respeitando o saldo disponível no controle financeiro.
 
@@ -97,7 +89,7 @@ Cada tarefa apresenta:
 - Descrição
 - Data limite
 
-![Kanban]()
+![Kanban](docs/imagens/kanban.png)
 
 Esse formato amplia a clareza visual e facilita o fluxo de trabalho.
 
@@ -105,7 +97,7 @@ Esse formato amplia a clareza visual e facilita o fluxo de trabalho.
 
 Modo de visualização alternativo em formato de tabela, ideal para pesquisas e análises rápidas.
 
-![Minhas tarefas]()
+![Minhas tarefas](docs/imagens/tarefas.png)
 
 As tarefas também podem ser **exportadas para XLSX**, garantindo flexibilidade e integração com outras ferramentas.
 
@@ -119,7 +111,7 @@ Para apoiar foco e produtividade, o LifeBoard inclui um **temporizador Pomodoro*
 - 15 minutos
 - 20 minutos
 
-![Pomodoro]()
+![Pomodoro](docs/imagens/pomodoro.png)
 
 A página contém uma explicação sobre o método, ajudando o usuário a aplicar a técnica corretamente no dia a dia.
 
@@ -145,7 +137,7 @@ O backend do LifeBoard foi desenvolvido com foco em confiabilidade, padronizaç�
 - **JUnit 5 + Spring Boot Test** para testes automatizados (unitários e integrados)
 - **Mockito** para simulação de dependências e cenários de negócio
 
-[🔗 GitHub – LifeBoard Backend](https://github.com/felipesora/lifeboard-backend-java)
+[🔗 GitHub – LifeBoard Backend](https://github.com/felipesora/lifeboard-backend)
 
 ### ⚛️ Frontend (React.js)
 
@@ -170,7 +162,7 @@ Principais tecnologias e ferramentas:
 
 Abaixo está a modelagem utilizada no projeto:
 
-![Modelagem Banco]()
+![Modelagem Banco](docs/imagens/modelagem.png)
 
 ### 🔗 Integração e Comunicação
 
@@ -349,7 +341,7 @@ O **LifeBoard está dividido em dois repositórios principais** — um para o ba
 
 - **Backend (Java 21 + Spring Boot):**
 
-    [🔗 GitHub – LifeBoard Backend](https://github.com/felipesora/lifeboard-backend-java)
+    [🔗 GitHub – LifeBoard Backend](https://github.com/felipesora/lifeboard-backend)
 
 ### 🚀 Deploys
 
