@@ -347,7 +347,7 @@ O **LifeBoard está dividido em dois repositórios principais** — um para o ba
 
 - **Aplicação Web (Frontend):**
 
-    [🔗 Acessar LifeBoard Online]()
+    [🔗 Acessar LifeBoard Online](https://lifeboard-frontend.vercel.app/)
 
 - **API REST (Backend):**
 
