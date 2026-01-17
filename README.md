@@ -375,7 +375,7 @@ Confira um vídeo apresentando o LifeBoard em funcionamento, mostrando as princi
 
 👉 **Assista ao vídeo demonstrativo:**
 
-[🔗 Vídeo Demontrativo da Solução]()
+[🔗 Vídeo Demontrativo da Solução](https://www.youtube.com/watch?v=hLPd2yK9jnE)
 
 ---
 
