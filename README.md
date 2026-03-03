@@ -218,13 +218,65 @@ O **LifeBoard** integra **múltiplos recursos pensados para melhorar organizaç�
 
 ---
 
-## 🚀 Como Rodar o Projeto Completo
+## 🚀 Como Rodar o Projeto Completo — LifeBoard
 
-Este guia apresenta o passo a passo para executar o **LifeBoard** localmente, iniciando pelo **backend (Java + Spring Boot)** e, em seguida, pelo **frontend (React + Vite)**.
+Este guia apresenta o passo a passo para executar o LifeBoard localmente.
 
-### 🔧 1. Backend — Java 21 + Spring Boot
+Você pode rodar de duas formas:
 
-#### 1.1. Pré-requisitos
+- ✅ **Modo manual** (Backend + Frontend separadamente)
+- 🐳 **Modo Docker** (tudo automatizado via Docker Compose)
+
+### 📥 1. Clonando o Projeto (Obrigatório)
+
+Como o projeto utiliza **submodules**, é necessário clonar com o parâmetro correto:
+
+```bash
+git clone --recurse-submodules https://github.com/felipesora/LifeBoard.git
+```
+
+Caso já tenha clonado sem `--recurse-submodules`, execute dentro da pasta:
+
+```bash
+git submodule update --init --recursive
+```
+
+### 🐳 Opção 1 — Rodar Tudo com Docker (Recomendado)
+
+Essa é a forma mais simples para executar o projeto completo.
+
+📌 Pré-requisitos
+
+- Docker
+- Docker Compose
+
+**▶️ Como rodar**
+
+Na raiz do projeto **LifeBoard**, execute:
+
+```bash
+docker compose up
+```
+
+**Isso irá:**
+
+- Criar um container PostgreSQL
+- Subir o Backend (Spring Boot)
+- Subir o Frontend (React + Vite)
+
+**🔗 Acessos**
+
+- Frontend → http://localhost:5173
+- Backend → http://localhost:8080
+- Swagger → http://localhost:8080/swagger-ui/index.html
+
+O banco PostgreSQL será criado automaticamente conforme definido no `docker-compose.yml`.
+
+### 💻 Opção 2 — Rodar Manualmente
+
+### 🔧 2. Backend — Java 21 + Spring Boot
+
+#### 2.1. Pré-requisitos
 
 Certifique-se de ter instalado:
 
@@ -233,7 +285,7 @@ Certifique-se de ter instalado:
 - **PostgreSQL Database** (local ou em container)
 - **Postman/Insomnia** (opcional para testar API)
 
-#### 1.2. Configuração do `application.properties`
+#### 2.2. Configuração do `application.properties`
 
 No diretório: `src/main/resources/application.properties`
 
@@ -258,7 +310,7 @@ api.security.token.secret=${JWT_SECRET}
 - Ajuste URL e credenciais do PostgreSQL conforme sua instalação.
 - O `ddl-auto=update` facilita o desenvolvimento (em produção, usar `validate`).
 
-#### 1.3. Rodando o Backend
+#### 2.3. Rodando o Backend
 
 Abra o projeto na sua IDE (IntelliJ, Eclipse ou VS Code) e localize a classe principal: `src/main/java/com/lifeboard/LifeboardBackendJavaApplication.java`
 
@@ -275,14 +327,14 @@ Após iniciar:
 - API disponível em: [http://localhost:8080](http://localhost:8080)
 - Swagger disponível em: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
-### 🖥️ 2. Frontend — React + Vite + TypeScript
+### 🖥️ 3. Frontend — React + Vite + TypeScript
 
-#### 2.1. Pré-requisitos
+#### 3.1. Pré-requisitos
 
 - **Node.js 18+**
 - **NPM ou Yarn**
 
-#### 2.2. Configuração do Frontend
+#### 3.2. Configuração do Frontend
 
 No arquivo `.env` localizado na raiz do frontend, ajuste a URL da API para apontar para o backend Java:
 
@@ -290,7 +342,7 @@ No arquivo `.env` localizado na raiz do frontend, ajuste a URL da API para apont
 VITE_API_URL=http://localhost:8080/api
 ```
 
-#### 2.3. Instalando dependências
+#### 3.3. Instalando dependências
 
 No diretório do frontend:
 
@@ -304,7 +356,7 @@ Ou:
 yarn
 ```
 
-#### 2.4. Rodando o Frontend
+#### 3.4. Rodando o Frontend
 
 Para iniciar em modo desenvolvimento:
 ```bash
@@ -320,7 +372,7 @@ Aplicação disponível em:
 O frontend se comunica com a API por meio do valor definido em:
 
 ```bash
-VITE_API_URL=http://localhost:8080/api
+VITE_API_URL=http://localhost:8080
 ```
 
 Certifique-se de que:
