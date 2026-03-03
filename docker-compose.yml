@@ -1,0 +1,46 @@
+version: '3.9'
+
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: lifeboard_postgres
+    restart: always
+    environment:
+      POSTGRES_DB: lifeboard
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+    ports:
+      - "5433:5432"
+    volumes:
+      - lifeboard_pgdata:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./lifeboard-backend
+      dockerfile: Dockerfile
+    container_name: lifeboard_backend
+    restart: always
+    depends_on:
+      - postgres
+    environment:
+      DB_URL: jdbc:postgresql://postgres:5432/lifeboard
+      DB_USER: root
+      DB_PASSWORD: root
+      JWT_SECRET: 12345678
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build:
+      context: ./lifeboard-frontend
+      dockerfile: Dockerfile
+    container_name: lifeboard_frontend
+    restart: always
+    depends_on:
+      - backend
+    ports:
+      - "5173:5173"
+
+volumes:
+    lifeboard_pgdata:
