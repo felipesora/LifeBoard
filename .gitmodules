@@ -1,0 +1,6 @@
+[submodule "lifeboard-backend"]
+	path = lifeboard-backend
+	url = https://github.com/felipesora/lifeboard-backend
+[submodule "lifeboard-frontend"]
+	path = lifeboard-frontend
+	url = https://github.com/felipesora/lifeboard-frontend
