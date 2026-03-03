@@ -230,14 +230,14 @@ Certifique-se de ter instalado:
 
 - **Java 21**
 - **Maven 3.9+**
-- **Oracle Database** (local ou em container)
+- **PostgreSQL Database** (local ou em container)
 - **Postman/Insomnia** (opcional para testar API)
 
 #### 1.2. Configuração do `application.properties`
 
 No diretório: `src/main/resources/application.properties`
 
-Configure conforme seu ambiente Oracle:
+Configure conforme seu ambiente PostgreSQL:
 
 ```properties
 spring.datasource.url=${DB_URL}
