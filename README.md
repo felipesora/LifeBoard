@@ -130,7 +130,7 @@ O backend do LifeBoard foi desenvolvido com foco em confiabilidade, padronizaç�
 - **Spring Security + JWT** para autenticação segura
 - **JPA/Hibernate** para persistência de dados
 - **Bean Validation** para validações robustas
-- **Oracle Database** como banco relacional principal
+- **PostgreSQL Database** como banco relacional principal
 - **Spring Doc / OpenAPI** para documentação dos endpoints
 - **Lombok** para redução de código boilerplate
 - **Spring DevTools** para agilizar o desenvolvimento
@@ -240,10 +240,10 @@ No diretório: `src/main/resources/application.properties`
 Configure conforme seu ambiente Oracle:
 
 ```properties
-spring.datasource.url=${ORCL_URL}
-spring.datasource.username=${ORCL_USERNAME}
-spring.datasource.password=${ORCL_PASSWORD}
-spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+spring.datasource.url=${DB_URL}
+spring.datasource.username=${DB_USER}
+spring.datasource.password=${DB_PASSWORD}
+spring.datasource.driver-class-name=org.postgresql.Driver
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
@@ -255,7 +255,7 @@ api.security.token.secret=${JWT_SECRET}
 **Observações importantes:**
 
 - O campo `jwt.secret` deve conter uma chave forte.
-- Ajuste URL e credenciais do Oracle conforme sua instalação.
+- Ajuste URL e credenciais do PostgreSQL conforme sua instalação.
 - O `ddl-auto=update` facilita o desenvolvimento (em produção, usar `validate`).
 
 #### 1.3. Rodando o Backend
@@ -329,9 +329,9 @@ Certifique-se de que:
 
 ---
 
-## 🔗 Repositórios e Deploys
+## 🔗 Repositórios
 
-O **LifeBoard está dividido em dois repositórios principais** — um para o backend e outro para o frontend — além das versões hospedadas em produção para acesso público.
+O **LifeBoard está dividido em dois repositórios principais** — um para o backend e outro para o frontend
 
 ### 📦 Repositórios
 
@@ -342,30 +342,6 @@ O **LifeBoard está dividido em dois repositórios principais** — um para o ba
 - **Backend (Java 21 + Spring Boot):**
 
     [🔗 GitHub – LifeBoard Backend](https://github.com/felipesora/lifeboard-backend)
-
-### 🚀 Deploys
-
-- **Aplicação Web (Frontend):**
-
-    [🔗 Acessar LifeBoard Online](https://lifeboard-frontend.vercel.app/)
-
-- **API REST (Backend):**
-
-    [🔗 API LifeBoard](https://lifeboard-backend-cv3r.onrender.com)
-
-    [🔗 Documentação Web – Swagger / OpenAPI](https://lifeboard-backend-cv3r.onrender.com/swagger-ui/index.html)
-
-
-> ⚠️ **Observação Importante**
->
-> O backend do LifeBoard está hospedado no plano gratuito do **Render**, o que significa que o servidor entra em modo “sleep” após um período sem uso.  
-> Por isso, ao acessar a aplicação, recomenda-se:
->
-> 1️⃣ Acessar primeiro o **deploy do backend**  
-> 2️⃣ Aguardar alguns segundos até que o serviço seja reativado  
-> 3️⃣ Após o backend estar ativo, utilizar normalmente o **frontend**
->
-> Isso garante que todas as funcionalidades sejam carregadas corretamente.
 
 ---
 
